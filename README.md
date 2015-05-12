@@ -2,9 +2,9 @@
 
 This is a quick & dirty fork of XtbGenerator to make it output the currently parsed file.
 
-To be used when searching an offending message without a @meaning tag (which would crash the program).
-Find the updated binary in `bin/XtbGenerator.jar`
-[Official XtbGenerator repository](https://github.com/kuzmisin/xtbgenerator)
+To be used when searching an offending message without a `@desc` tag (which would crash the program).
+* Find the updated binary in `bin/XtbGenerator.jar`
+* [Official XtbGenerator repository](https://github.com/kuzmisin/xtbgenerator)
 
 # XtbGenerator
 

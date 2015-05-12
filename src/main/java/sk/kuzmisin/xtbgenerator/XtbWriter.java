@@ -35,6 +35,7 @@ abstract class XtbWriter {
         Iterator<JsMessage> iterator = messages.values().iterator();
         while (iterator.hasNext()) {
             JsMessage message = iterator.next();
+            System.out.println("Parsing file : " + message.getSourceName() + "\n");
             writer.append(
                 INDENT +
                 "<translation id=\"" + message.getId() + "\" " +
